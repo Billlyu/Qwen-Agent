@@ -171,7 +171,7 @@ while True:
 #   - qwen1.5-7b/14b/72b-chat （与开源的Qwen1.5-7B/14B/72B-Chat相同模型）
 #   - qwen-turbo, qwen-plus, qwen-max （推荐使用qwen-max）
 # 您需要将YOUR_DASHSCOPE_API_KEY替换为您的真实API-KEY。
-python run_server.py --llm qwen-max --model_server dashscope --workstation_port 7864 --api_key YOUR_DASHSCOPE_API_KEY
+python run_server.py --llm qwen-max --model_server dashscope --workstation_port 7864 --api_key sk-d3804db47cda4c0a8213266549be6e16
 ```
 
 如果您没有在使用DashScope、而是部署了自己的模型服务的话，请执行以下命令：
